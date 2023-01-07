@@ -1,6 +1,7 @@
 *{
     margin:0;
     font-family:verdana,sans-serif;
+    box-sizing:border-box;
 }
 header{
     background-image:url(../donate-today-main/images/donation14.webp);
@@ -20,12 +21,13 @@ header{
 
 }
 .container .paragraph{
+
     font-size:22px;
     color:#fff;
     margin-top:10px;
 }
 .container .btn-primary{
-    background:#ffa500;
+    background:#eb0909;
     width:150px;
     height:50px;
     padding:5px 10px; 
@@ -57,7 +59,7 @@ header{
     margin-top:20px;
 } 
 .button input{
-    width:50px;
+    width:70px;
     height:50px;
     text-align:center;
     padding:5px 10px;
@@ -87,10 +89,10 @@ header{
     
 }
 .section hr{
-
+    
 }
 .section .btn-primary{
-    background:#ffa500;
+    background:#eb0909;
     width:150px;
     height:50px;
     color:#fff;
@@ -109,3 +111,90 @@ header{
 .plan .description{
     font-size:15px;
 }
+.support-container{
+    margin-top:50px;
+    
+}
+ .support-system{
+    
+    display:flex;
+    gap:20px;
+    padding:100px 400px;
+    justify-content:space-between;
+ }
+ .support-title{
+    background:#a3a0a0;
+    box-shadow:0px 6px 50px rgba(0,0,0,0.06);
+    border-radius:5px;
+    margin-top:10px;
+    padding:50px 30px;
+    
+ }
+ .support-style{
+   font-weight:700px;
+   font-size:20px;
+   margin-top:10px;
+
+ }
+ .support-description{
+   color:#00000;
+   
+ }
+ .donate-title{
+    margin:0 400px;
+    align-items:center;
+    display:flex;
+    gap:10px;
+ }
+ .donate-title .donate-heading{
+    font-size:30px;
+    font-weight:700;
+    margin-bottom:10px;
+ }
+ .donate-title .donate-description{
+    font-size:18px;
+    margin-bottom:10px;
+ }
+ .donate-title input{
+    width:200px;
+    height:60px;
+ }
+ .donate-title .donate-button{
+    background:#eb0909;
+    color:#fff;
+    border:0;
+    font-size:18px;
+    border-radius:10px;
+    text-align:center;
+    padding:5px 10px;
+ }
+ .survive{
+   margin:0 400px;
+    display:flex;
+    margin-top:60px;
+   gap:40px;
+   align-items:center;
+
+ }
+ .survive .survive-img{
+    width:900px;
+    height:50vh;
+ }
+ .survive .survive-title{
+    margin-bottom:5px;
+ }
+ .survive .survive-description{
+    margin-bottom:5px;
+    text-align:justify;
+ }
+ .survive .donate-button{
+    margin-top:10px;
+    width:200px;
+    height:50px;
+    background:#ff0000;
+    border:none;
+    color:#fff;
+    font-size:16px;
+    padding:5px 10px;
+    border-radius:5px;
+ }
